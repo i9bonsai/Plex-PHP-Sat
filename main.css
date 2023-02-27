@@ -1,0 +1,23 @@
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(8,8,8);
+    background: linear-gradient(0deg, rgba(8,8,8,1) 0%, rgba(40,40,40,1) 100%);
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+  }
+
+
+
+.loading-box {
+
+  border: 15px solid white;
+  width: 200px;
+  text-align: center;
+  margin-top: 24%;
+  margin-left: 42.5%;
+}
